@@ -9,7 +9,7 @@
 <body>
 <script>
 sessionStorage.setItem('spa-route',location.pathname+location.search+location.hash);
-location.replace('/');
+location.replace('/?preview='+Date.now());
 </script>
 </body>
 </html>
